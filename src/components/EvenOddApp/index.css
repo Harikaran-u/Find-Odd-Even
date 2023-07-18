@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.random-bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+.random-cont {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 14px;
+  border-width: 0px;
+  border-style: solid;
+}
+.count-head {
+  font-family: Roboto;
+  font-size: 36px;
+  color: #0f172a;
+}
+.count-ans {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #334155;
+}
+.increment-btn {
+  font-family: Roboto;
+  height: 36px;
+  width: 120px;
+  font-size: 14px;
+  color: #1e293b;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 0px;
+}
+.info {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 10px;
+}
+
+@media (max-width: 792px) {
+  .random-cont {
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    width: 280px;
+  }
+  .count-head {
+    font-size: 26px;
+  }
+  .increment-btn {
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+  }
+  .count-ans {
+    font-size: 12px;
+  }
+}
